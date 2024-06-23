@@ -1,0 +1,38 @@
+div {
+    display: flex;
+}
+
+.wrapper {
+    width: 100%;
+    justify-content: center;
+    background-color: #ececec;
+}
+
+.mobile-screen {
+    width: 500px;
+    padding: 2%;
+    flex-direction: column;
+    background-color: rgb(33, 31, 31);
+    background-image: url(bg.webp); 
+    color: white;
+}
+
+.text-header{
+    text-align: center;
+}
+
+.description {
+    flex-direction: column;
+    margin-left: 5%;
+    line-height: 1.25;
+    text-align:justify;
+}
+
+.storyline{
+    margin-top: 0px;
+}
+
+.actors{
+    flex-direction: column;
+    line-height: 1.25;
+}
